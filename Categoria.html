@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylescategoria.css">
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="image.png" alt="Logo Sttrait Books">
+                <span>Sttrait Books</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Busque seu livro!">
+                <button><img src="search.png" alt="Search"></button>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#"><img src="people.png" alt="User"></a></li>
+                <li><a href="Carrinho.html"><img src="car.png" alt="Cart"></a></li>
+            </ul>
+        </nav>
+        <div class="sub-menu">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Categorias ▼</button>
+                <div class="dropdown-content">
+                    <a href="Categoria.html">Ficção</a>
+                    <a href="Categoria.html">História</a>
+                    <a href="Categoria.html">Romance</a>
+                    <a href="Categoria.html">Ciência</a>
+                    <a href="Categoria.html">Poesia</a>
+                    <a href="Categoria.html">filosofia</a>
+                </div>
+            </div>
+            <a href="Detalhes.html">Detalhes</a>
+            <a href="#" class="promo-button">Promoções</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="course-page">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>Category</h3>
+            <ul class="category-list">
+                <li>
+                    <ul>
+                        <li><label><input type="checkbox">História <span>568</span></label></li>
+                        <li><label><input type="checkbox" checked> Filosofia <span>1345</span></label></li>
+                        <li><label><input type="checkbox"> Romance <span>317</span></label></li>
+                        <li><label><input type="checkbox"> Ficção <span>31</span></label></li>
+                        <li><label><input type="checkbox"> Poésia <span>558</span></label></li>
+                        <li><label><input type="checkbox"> Ciência <span>123</span></label></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Course Grid -->
+        <section class="course-grid">
+            <div class="course-item">
+                <img src="O poder do Hábito.jpg" alt="Course 1">
+                <span class="price">R$49</span>
+                <p>O poder Do Hábito</p>
+                <button onclick="window.location.href='DetalhesPoder.html';">Comprar</button>
+            </div>
+            <div class="course-item">
+                <img src="Dom Casmurro.jpg" alt="Course 2">
+                <span class="price">R$32</span>
+                <p>Dom Casmurro</p>
+                <button onclick="window.location.href='DetalhesDom.html';">Comprar</button>
+            </div>
+            <div class="course-item">
+                <img src="O meu pé de laranja Lima.jpg" alt="Course 3">
+                <span class="price">R$13</span>
+                <p>O meu pé de laranja Lima</p>
+                <button onclick="window.location.href='DetalhesLAranja.html';">Comprar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>Sttrait Books</h2>
+                <p>Encontre os melhores livros com a gente! Oferecemos uma vasta seleção para todos os gostos.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Links Rápidos</h2>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Promoções</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contato</h2>
+                <p>Email: contato@sttraitbooks.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Endereço: Rua Exemplo, 123, São Paulo - SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sttrait Books | Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>

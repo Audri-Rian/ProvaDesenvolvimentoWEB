@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Navbar - Sttrait Books</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="image.png" alt="Logo Sttrait Books">
+                <span>Sttrait Books</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Busque seu livro!">
+                <button><img src="search.png" alt="Search"></button>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#"><img src="people.png" alt="User"></a></li>
+                <li><a href="Carrinho.html"><img src="car.png" alt="Cart"></a></li>
+            </ul>
+        </nav>
+        <div class="sub-menu">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Categorias ▼</button>
+                <div class="dropdown-content">
+                    <a href="Categoria.html">Ficção</a>
+                    <a href="Categoria.html">História</a>
+                    <a href="Categoria.html">Romance</a>
+                    <a href="Categoria.html">Ciência</a>
+                    <a href="Categoria.html">Poesia</a>
+                    <a href="Categoria.html">filosofia</a>
+                </div>
+            </div>
+            <a href="Detalhes.html">Detalhes</a>
+            <a href="#" class="promo-button">Promoções</a>
+        </div>
+    </header>
+    <!-- Banner -->
+    <header>
+        <div class="banner"></div>
+    </header>
+
+    <!-- Categorias -->
+    <section class="categories">
+        <button class="category-item" style="background-image: url('romance.jpg');" onclick="window.location.href='Categoria.html';"></button>
+        <button class="category-item" style="background-image: url('ciencia.jpg');" onclick="window.location.href='Categoria.html';"></button>
+        <button class="category-item" style="background-image: url('filosofia.jpg');" onclick="window.location.href='Categoria.html';"></button>
+        <button class="category-item" style="background-image: url('historia.jpg');" onclick="window.location.href='Categoria.html';"></button>
+        <button class="category-item" style="background-image: url('poesia.jpg');" onclick="window.location.href='Categoria.html';"></button>
+        <button class="category-item" style="background-image: url('download.jpg');" onclick="window.location.href='Categoria.html';"></button>
+    </section>
+    
+
+    <!-- Livros -->
+    <main>
+        <h1>Online Book Bazar</h1>
+        <section class="book-grid">
+            <div class="book-item">
+                <img src="Dom Casmurro.jpg" alt="Book 1">
+            </div>
+            <div class="book-item">
+                <img src="O meu pé de laranja Lima.jpg" alt="Book 2">
+            </div>
+            <div class="book-item">
+                <img src="O poder do Hábito.jpg" alt="Book 3">
+            </div>
+            <div class="book-item">
+                <img src="É assim que acaba.jpg" alt="Book 4">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>Sttrait Books</h2>
+                <p>Encontre os melhores livros com a gente! Oferecemos uma vasta seleção para todos os gostos.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Links Rápidos</h2>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Promoções</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contato</h2>
+                <p>Email: contato@sttraitbooks.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Endereço: Rua Exemplo, 123, São Paulo - SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sttrait Books | Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
